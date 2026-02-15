@@ -6,9 +6,28 @@ padding: 0;
 font-size: 20px;
 }
 
+body {
+    background-color: aliceblue;
+}
+
 p,
 h1 {
     text-align: center;
+}
+
+#friends {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#warning {
+    font-style: italic;
+    font-size: 12px;
 }
 
 /* Root font size */
@@ -54,4 +73,15 @@ form button {
 input[type="radio"] {
     margin-right: 4px; /* space between button and text */
     vertical-align: middle; /* align with text */
+}
+
+button {
+background-color: #04AA6D; /* Green */
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
 }
