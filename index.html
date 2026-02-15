@@ -16,8 +16,9 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <div id="background"></div>
         <h1>Survey</h1>
-        <p>This is in no way affiliated with National Beef Packing
+        <p id="friends">This is in no way affiliated with National Beef Packing
             and by continuing
             you agree that we are friends and this is just for funsies
         </p>
@@ -26,6 +27,16 @@
             <label>
                 Your name: <input type="text" name="name">
             </label>
+
+            <label>
+                How are you? <input type="text" name="howareyou">
+            </label>
+
+            <label>
+                Solve for x: <br>
+                2x - 3 = -7<input type="text" name="name">
+            </label>
+
             <label>
                 How much do you love your job? <input type="range" name="range" min="0" max="10">
             </label>
@@ -33,7 +44,7 @@
             <label>
                 I would trust this man on a forklift:
                 <img src="PXL_20221109_193831124.jpg" alt="">
-                <p>Please note that this picture was taken in 2019 long before his start at NBP</p>
+                <p id="warning">Please note that this picture was taken in 2019 long before his start at NBP</p>
                 <label>
                     <input type="radio" id="yes" name="yesno">YES
                 </label>
@@ -48,7 +59,7 @@
             </label>
             <button type="submit">Send</button>
         </form>
-
+        </body>
         <!-- <img src="https://www.nationalbeef.com/-/media/Images/NBWEB/Utilities/OpenGraph/nb_og.jpg"       alt="">
         name attribute to each input    -->
         <script src="" async defer></script>
