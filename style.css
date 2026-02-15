@@ -1,0 +1,57 @@
+/* Reset */
+*, *::before, *::after {
+box-sizing: border-box;
+margin: auto;
+padding: 0;
+font-size: 20px;
+}
+
+p,
+h1 {
+    text-align: center;
+}
+
+/* Root font size */
+html {
+font-size: 62.5%;
+scroll-behavior: smooth;
+-webkit-text-size-adjust: none;
+text-size-adjust: none;
+}
+
+/* Images */
+img {
+display: block;
+max-width: 100%;
+}
+
+/* Lists */
+ul, ol {
+list-style: none;
+padding-left: 0;
+}
+
+/* Focus styles */
+:focus:not(:focus-visible) {
+outline: none;
+}
+
+/* Interactive elements */
+button, label, select, [type="checkbox"], [type="radio"] {
+cursor: pointer;
+}
+
+form label,  
+form select, 
+form textarea, 
+form button {
+    display: block;       /* Stack vertically */
+    margin-bottom: 10px;  /* Space between fields */
+    width: 100%;          /* Optional: make them full width */
+    max-width: 300px;     /* Optional: limit width */
+}
+
+input[type="radio"] {
+    margin-right: 4px; /* space between button and text */
+    vertical-align: middle; /* align with text */
+}
