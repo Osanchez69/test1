@@ -46,14 +46,27 @@
                 <img src="PXL_20221109_193831124.jpg" alt="">
                 <p id="warning">Please note that this picture was taken in 2019 long before his start at NBP</p>
                 <label>
-                    <input type="radio" id="yes" name="yesno">YES
+                    <input type="radio" id="q1_yes" name="yesno">YES
                 </label>
                 <label>
-                    <input type="radio" name="yesno" id="no">NO
+                    <input type="radio" name="yesno" id="q1_no">NO
                 </label>
             </label>
 
-            <p>Anything you want to say?</p>
+            <div id="followUpSection" style="display: none;">
+                <label>
+                    Are you sure about that?
+                    <img src="Snapchat-6171342.jpg">
+                    <label>
+                        <input type="radio" name="followup" id="followupyes">YES
+                    </label>
+                    <label>
+                        <input type="radio" name="followup" id="followupno">NO
+                    </label>
+                </label>
+            </div>
+
+            <p>Questions? Comments? Say whatever's on your mind...</p>
             <label>
                 <textarea name="message"></textarea>
             </label>
@@ -62,6 +75,6 @@
         </body>
         <!-- <img src="https://www.nationalbeef.com/-/media/Images/NBWEB/Utilities/OpenGraph/nb_og.jpg"       alt="">
         name attribute to each input    -->
-        <script src="" async defer></script>
+        <script src="script.js"></script>
     </body>
 </html>
